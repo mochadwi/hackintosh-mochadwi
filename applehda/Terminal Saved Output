@@ -1,0 +1,27 @@
+Last login: Fri Apr  8 19:08:21 on console
+/Users/mochadwi/Documents/kexts\ -\ hackintosh/repatch/applehda/audio_codecdetect_v1.3.command ; exit;
+
+┌─( ~ )────────────────────────────────────────────( @Mochamads-MacBook-Pro )─┐
+└─❱❱❱ /Users/mochadwi/Documents/kexts\ -\ hackintosh/repatch/applehda/audio_codecdetect_v1.3.command ; exit;
+File: audio_codecdetect.command_v1.4
+
+HDMI audio codec(s)
+Intel:    0x80862806
+
+Onboard audio codec
+Realtek: 0x10ec0269
+
+OS X/10.11.4 Onboard Audio
+Device: HDEF@1B
+Audio ID: Not supported
+Currrent Audio ID: 28 (set: 1, 2, or 3)
+Fix, try:
+1. https://github.com/toleda/audio_ALCInjection/tree/master/ssdt_hdef/
+ssdt_hdef-1-with_ioreg/hdef.zip (select View Raw)
+2. CLOVER/config.plist/Devices/Audio/Inject/1
+
+No system files were changed
+To save a Copy of this Terminal session: Terminal/Shell/Export Text As ...
+
+[Process completed]
+

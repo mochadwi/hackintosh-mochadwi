@@ -1,0 +1,47 @@
++-o HDEF@1B  <class IOPCIDevice, id 0x1000001cd, registered, matched, active, busy 0 (769 ms), retain 11>
+    {
+      "acpi-device" = "IOACPIPlatformDevice is not serializable"
+      "IOPCIMSIMode" = Yes
+      "assigned-addresses" = <10d800820f000000000051900000000000400000>
+      "class-code" = <00030400>
+      "subsystem-vendor-id" = <86800000>
+      "vendor-id" = <86800000>
+      "hda-gfx" = <"onboard-1">
+      "IOPCIExpressLinkCapabilities" = 0
+      "IOName" = "pci8086,1e20"
+      "IOPCIPMCSState" = 0
+      "DigitalAudioCapabilities" = {"DisplayPort"=1,"HDMI"=1}
+      "AFGLowPowerState" = <03000000>
+      "pcidebug" = "0:27:0"
+      "layout-id" = <0c000000>
+      "IOPCIExpressLinkStatus" = 0
+      "pci-aspm-default" = 0
+      "IOPCIExpressCapabilities" = 145
+      "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+      "built-in" = <00>
+      "IOPCIResourced" = Yes
+      "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+      "AAPL,slot-name" = <"Built-in">
+      "IODeviceMemory" = (({"address"=66845736960,"length"=16384}))
+      "acpi-pmcap-offset" = 80
+      "codec-id" = <6902ec10>
+      "name" = <"Realtek ALC269">
+      "subsystem-id" = <27070000>
+      "model" = <"Realtek ALC271X">
+      "Credits" = "2008 (c) Kabyl/Taruga"
+      "PinConfigurations" = <f011114110001390f011114130908100f0111141f01111412000a0902d9b1840f011114140102100e0005628>
+      "device_type" = <"Sound">
+      "compatible" = <"pci1025,727","pci8086,1e20","pciclass,040300","HDEF">
+      "Built-in" = <00>
+      "IOReportLegendPublic" = Yes
+      "reg" = <00d800000000000000000000000000000000000010d8000200000000000000000000000000400000>
+      "MaximumBootBeepVolume" = <00>
+      "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="HDEF 1"})
+      "device-id" = <201e0000>
+      "device-type" = <4869676820446566696e6974696f6e20417564696f20436f6e74726f6c6c65720000000000>
+      "revision-id" = <04000000>
+      "IOInterruptSpecifiers" = (<1600000007000000>,<0300000000000100>)
+      "acpi-path" = "IOACPIPlane:/_SB/PCI0/HDEF@1b0000"
+    }
+    
+

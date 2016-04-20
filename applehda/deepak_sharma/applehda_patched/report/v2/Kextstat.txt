@@ -1,0 +1,3 @@
+  104    2 0xffffff7f821d7000 0xc000     0xc000     com.apple.iokit.IOHDAFamily (274.7) 5EC202A0-B89D-351A-9F42-C77FDA32C9AD <5 4 3 1>
+  105    1 0xffffff7f821ea000 0x1e000    0x1e000    com.apple.driver.AppleHDAController (274.7) CFF7F97F-6E1F-3CF9-A8E3-76125E9CA414 <104 103 79 12 7 6 5 4 3 1>
+  121    0 0xffffff7f82356000 0xb3000    0xb3000    com.apple.driver.AppleHDA (274.7) FE47EADA-C810-3253-BE41-0776D253D256 <120 105 104 103 97 79 12 11 6 5 4 3 1>
