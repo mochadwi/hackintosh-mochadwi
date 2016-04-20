@@ -1,0 +1,25 @@
+Last login: Wed Apr 20 13:12:48 on ttys000
+/Users/mochadwi/Documents/kexts\ -\ hackintosh/repatch/clover/clover_work/applehda/deepak_sharma/hdmi/audio_cloverHDMI-110_v0.17.command ; exit;
+                                                                                
+┌─( ~ )────────────────────────────────────────────( @Mochamads-MacBook-Pro )─┐
+└─❱❱❱ /Users/mochadwi/Documents/kexts\ -\ hackintosh/repatch/clover/clover_work/applehda/deepak_sharma/hdmi/audio_cloverHDMI-110_v0.17.command ; exit;
+ 
+Agreement
+The audio_cloverHDMI script is for personal use only. Do not distribute
+the patch, any or all of the files or the resulting patched AppleHDA.kext
+for any reason without permission. The audio_cloverHDMI script is
+provided as is and without any kind of warranty.
+ 
+File: audio_cloverHDMI-110.command_v0.17 - BETA
+Release Mode
+EFI partition is mounted
+HDMI audio codec(s)
+Intel:    0x80862806
+HD4000 HDMI audio is enabled, connector edit may be required
+Verify HD4000 HDMI audio connector/s (y/n): y
+Error: more than one display connected to HD4000, patch not possible
+No system files were changed
+To save a Copy of this Terminal session: Terminal/Shell/Export Text As ...
+
+[Process completed]
+
