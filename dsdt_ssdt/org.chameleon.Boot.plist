@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DSDT</key>
+	<string>/Extra/DSDT.aml</string>
+	<key>DropSSDT</key>
+	<string>Yes</string>
+	<key>Graphics Mode</key>
+	<string>1366x768x32</string>
+	<key>GraphicsEnabler</key>
+	<string>No</string>
+	<key>HDAEnabler</key>
+	<string>Yes</string>
+	<key>HDEFLayoutID</key>
+	<string>1C000000</string>
+	<key>Instant Menu</key>
+	<string>Yes</string>
+	<key>Kernel Flags</key>
+	<string>darkwake=0 dart=0</string>
+	<key>Legacy Logo</key>
+	<string>Yes</string>
+	<key>SMBIOS</key>
+	<string>/Extra/SMBios.plist</string>
+	<key>SystemType</key>
+	<string>2</string>
+	<key>Theme</key>
+	<string>Bootcamp</string>
+	<key>UseIntelHDMI</key>
+	<string>Yes</string>
+	<key>device-properties</key>
+	<string>4b00000001000000010000003f0000000100000002010c00d041030a0000000001010600021c0101060002007fff0400160000006200750069006c0074002d0069006e0000000500000001</string>
+</dict>
+</plist>
