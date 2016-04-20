@@ -10,6 +10,11 @@
 			<false/>
 			<key>DropOEM_DSM</key>
 			<false/>
+			<key>Fixes</key>
+			<dict>
+				<key>FixShutdown_0004</key>
+				<true/>
+			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
 			<key>ReuseFFFF</key>
@@ -26,7 +31,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 darkwake=0 nv_disable=1 kext-dev-mode=1 rootless=0</string>
+		<string>dart=0 darkwake=0 nv_disable=1 kext-dev-mode=1 rootless=0</string>
+		<key>CustomLogo</key>
+		<string>Theme</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -114,7 +121,7 @@
 		<key>ScreenResolution</key>
 		<string>1366x768</string>
 		<key>Theme</key>
-		<string></string>
+		<string>yosemitelogin</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -150,6 +157,34 @@
 		<true/>
 		<key>KextsToPatch</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>t2-10.10-10.11-Capri-Port _0x5-DP2HDMI</string>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHAQAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AgUAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>t2-10.10-10.11-Capri-Port _0x7-HDMI2DP</string>
+				<key>Find</key>
+				<data>
+				BAYAAAAIAAAGAAAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				BAYAAAAEAAAHAQAA
+				</data>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>External icons patch</string>
