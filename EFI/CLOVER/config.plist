@@ -9,7 +9,7 @@
 			<key>Debug</key>
 			<false/>
 			<key>DropOEM_DSM</key>
-			<false/>
+			<true/>
 			<key>Fixes</key>
 			<dict>
 				<key>FixHPET_0010</key>
@@ -23,9 +23,9 @@
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
-			<false/>
+			<true/>
 			<key>Generate</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -157,18 +157,18 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>10.10-10.11-Capri-Port _0x5-DP2HDMI</string>
+				<string>10.10-10.11-Capri-Port _0x6-DP2HDMI</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AgUAAAAEAAAHAQAA
+				AwQAAAAEAAAHAQAA
 				</data>
 				<key>Name</key>
 				<string>AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
 				<data>
-				AgUAAAAIAAAGAAAA
+				AwQAAAAIAAAGAAAA
 				</data>
 			</dict>
 			<dict>
@@ -185,6 +185,22 @@
 				<key>Replace</key>
 				<data>
 				BAYAAAAEAAAHAQAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.9-10.11-HD4600_HDMI_Audio-2of2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				PQwKAAA=
+				</data>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>
+				PQwMAAA=
 				</data>
 			</dict>
 			<dict>
@@ -221,34 +237,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10.10-10.11-Capri-Port _0x6-DP2HDMI</string>
+				<string>10.10-10.11-Capri-Port _0x5-DP2HDMI</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AwQAAAAEAAAHAQAA
+				AgUAAAAEAAAHAQAA
 				</data>
 				<key>Name</key>
 				<string>AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
 				<data>
-				AwQAAAAIAAAGAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.9-10.11-HD4600_HDMI_Audio-2of2</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				PQwKAAA=
-				</data>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>
-				PQwMAAA=
+				AgUAAAAIAAAGAAAA
 				</data>
 			</dict>
 		</array>
