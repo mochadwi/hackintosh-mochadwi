@@ -25,7 +25,7 @@
 			<key>DropOem</key>
 			<false/>
 			<key>Generate</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -189,38 +189,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10.9-10.11-HD4600_HDMI_Audio-2of2</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				PQwKAAA=
-				</data>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>
-				PQwMAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.10-10.11-Capri-Port _0x6-DP2HDMI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AwQAAAAEAAAHAQAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				AwQAAAAIAAAGAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>10.9-10.11-HD4600_HDMI_Audio-1of2</string>
 				<key>Disabled</key>
 				<false/>
@@ -249,6 +217,38 @@
 				<key>Replace</key>
 				<data>
 				SW50ZXJuYWw=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.10-10.11-Capri-Port _0x6-DP2HDMI</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AwQAAAAEAAAHAQAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AwQAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.9-10.11-HD4600_HDMI_Audio-2of2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				PQwKAAA=
+				</data>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>
+				PQwMAAA=
 				</data>
 			</dict>
 		</array>
