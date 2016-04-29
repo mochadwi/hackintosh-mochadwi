@@ -91,8 +91,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>\EFI\BOOT\BOOTX64.EFI</string>
 			<string>Windows</string>
+			<string>\EFI\BOOT\BOOTX64.EFI</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -157,18 +157,34 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>10.10-10.11-Capri-Port _0x7-HDMI2DP</string>
+				<string>10.10-10.11-Capri-Port _0x6-DP2HDMI</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				BAYAAAAIAAAGAAAA
+				AwQAAAAEAAAHAQAA
 				</data>
 				<key>Name</key>
 				<string>AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
 				<data>
-				BAYAAAAEAAAHAQAA
+				AwQAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.9-10.11-HD4600_HDMI_Audio-1of2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				PQsMAAA=
+				</data>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>
+				PQwMAAA=
 				</data>
 			</dict>
 			<dict>
@@ -205,22 +221,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10.10-10.11-Capri-Port _0x6-DP2HDMI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AwQAAAAEAAAHAQAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				AwQAAAAIAAAGAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>External icons patch</string>
 				<key>Disabled</key>
 				<false/>
@@ -237,18 +237,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10.9-10.11-HD4600_HDMI_Audio-1of2</string>
+				<string>10.10-10.11-Capri-Port _0x7-HDMI2DP</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				PQsMAAA=
+				BAYAAAAIAAAGAAAA
 				</data>
 				<key>Name</key>
-				<string>AppleHDAController</string>
+				<string>AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
 				<data>
-				PQwMAAA=
+				BAYAAAAEAAAHAQAA
 				</data>
 			</dict>
 		</array>
