@@ -14,6 +14,8 @@
 			<dict>
 				<key>FixHPET_0010</key>
 				<true/>
+				<key>FixUSB_1000</key>
+				<true/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
@@ -31,7 +33,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -xcpm darkwake=0 nv_disable=1 kext-dev-mode=1</string>
+		<string>dart=0 -xcpm darkwake=0 nv_disable=1 kext-dev-mode=1 rootless=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -56,25 +58,6 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>ATI</key>
-			<string>0x0</string>
-			<key>IMEI</key>
-			<string>0x0</string>
-			<key>IntelGFX</key>
-			<string>0x0</string>
-			<key>LAN</key>
-			<string>0x0</string>
-			<key>NVidia</key>
-			<string>0x0</string>
-			<key>SATA</key>
-			<string>0x0</string>
-			<key>WIFI</key>
-			<string>0x0</string>
-			<key>XHCI</key>
-			<string>0x0</string>
-		</dict>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -93,8 +76,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>\EFI\BOOT\BOOTX64.EFI</string>
 			<string>Windows</string>
+			<string>\EFI\BOOT\BOOTX64.EFI</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -159,54 +142,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>External icons patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.10-10.11-Capri-Port _0x7-HDMI2DP</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				BAYAAAAIAAAGAAAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				BAYAAAAEAAAHAQAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.10-10.11-Capri-Port _0x5-DP2HDMI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AgUAAAAEAAAHAQAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				AgUAAAAIAAAGAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>10.10-10.11-Capri-Port _0x6-DP2HDMI</string>
 				<key>Disabled</key>
 				<false/>
@@ -219,6 +154,22 @@
 				<key>Replace</key>
 				<data>
 				AwQAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.9-10.11-HD4600_HDMI_Audio-2of2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				PQwKAAA=
+				</data>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>
+				PQwMAAA=
 				</data>
 			</dict>
 			<dict>
@@ -239,18 +190,50 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10.9-10.11-HD4600_HDMI_Audio-2of2</string>
+				<string>External icons patch</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				PQwKAAA=
+				RXh0ZXJuYWw=
 				</data>
 				<key>Name</key>
-				<string>AppleHDAController</string>
+				<string>AppleAHCIPort</string>
 				<key>Replace</key>
 				<data>
-				PQwMAAA=
+				SW50ZXJuYWw=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.10-10.11-Capri-Port _0x5-DP2HDMI</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHAQAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AgUAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.10-10.11-Capri-Port _0x7-HDMI2DP</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				BAYAAAAIAAAGAAAA
+				</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				BAYAAAAEAAAHAQAA
 				</data>
 			</dict>
 		</array>
