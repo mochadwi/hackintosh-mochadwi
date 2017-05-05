@@ -27,13 +27,18 @@
 			<key>DropOem</key>
 			<true/>
 			<key>Generate</key>
-			<true/>
+			<dict>
+				<key>CStates</key>
+				<true/>
+				<key>PStates</key>
+				<true/>
+			</dict>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -xcpm darkwake=0 nv_disable=1 kext-dev-mode=1 rootless=0</string>
+		<string>-v dart=0 -xcpm darkwake=0 nv_disable=1 kext-dev-mode=1 rootless=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -98,6 +103,8 @@
 			<true/>
 			<key>Legacy</key>
 			<string>First</string>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
