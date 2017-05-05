@@ -59,7 +59,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>12</string>
+			<string>13</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -241,6 +241,38 @@
 				<key>Replace</key>
 				<data>
 				AwQAAAAIAAAGAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.9-10.12-AppleHDA/Realtek ALC269</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				YgLsEA==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				aQLsEA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AppleHDA/Resources/xml&gt;zml</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				eG1sLnps
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				em1sLnps
 				</data>
 			</dict>
 		</array>
