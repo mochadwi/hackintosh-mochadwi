@@ -12,6 +12,8 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>FixHDA_8000</key>
+				<true/>
 				<key>FixHPET_0010</key>
 				<true/>
 				<key>FixUSB_1000</key>
