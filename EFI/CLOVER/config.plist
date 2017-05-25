@@ -29,7 +29,12 @@
 			<key>DropOem</key>
 			<true/>
 			<key>Generate</key>
-			<true/>
+			<dict>
+				<key>CStates</key>
+				<true/>
+				<key>PStates</key>
+				<true/>
+			</dict>
 		</dict>
 	</dict>
 	<key>Boot</key>
