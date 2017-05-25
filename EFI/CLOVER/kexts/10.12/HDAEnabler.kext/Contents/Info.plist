@@ -47,7 +47,7 @@
 			<key>IOClass</key>
 			<string>HDAEnabler</string>
 			<key>IOPCIClassMatch</key>
-			<string>0x04030000&amp;0xffff0000</string>
+			<string>0x04010000&amp;0xFFFD0000</string>
 			<key>IOProbeScore</key>
 			<integer>600</integer>
 			<key>IOProviderClass</key>
