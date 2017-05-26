@@ -66,7 +66,9 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>13</string>
+			<string>No</string>
+			<key>ResetHDA</key>
+			<true/>
 		</dict>
 		<key>USB</key>
 		<dict>
