@@ -56,14 +56,17 @@
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>UseARTFrequency</key>
+		<false/>
+	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
 			<string>13</string>
-			<key>ResetHDA</key>
-			<true/>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -151,34 +154,18 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>External icons patch</string>
+				<string>10.10-10.11-Capri-Port _0x7-HDMI2DP</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				RXh0ZXJuYWw=
+				BAYAAAAIAAAGAAAA
 				</data>
 				<key>Name</key>
-				<string>AppleAHCIPort</string>
+				<string>AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
 				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.9-10.11-HD4600_HDMI_Audio-1of2</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				PQsMAAA=
-				</data>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>
-				PQwMAAA=
+				BAYAAAAEAAAHAQAA
 				</data>
 			</dict>
 			<dict>
@@ -199,22 +186,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10.10-10.11-Capri-Port _0x7-HDMI2DP</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				BAYAAAAIAAAGAAAA
-				</data>
-				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>
-				BAYAAAAEAAAHAQAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>10.9-10.11-HD4600_HDMI_Audio-2of2</string>
 				<key>Disabled</key>
 				<false/>
@@ -227,6 +198,22 @@
 				<key>Replace</key>
 				<data>
 				PQwMAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>External icons patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RXh0ZXJuYWw=
+				</data>
+				<key>Name</key>
+				<string>AppleAHCIPort</string>
+				<key>Replace</key>
+				<data>
+				SW50ZXJuYWw=
 				</data>
 			</dict>
 			<dict>
@@ -247,114 +234,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10.9-10.12-AppleHDA/Realtek ALC269</string>
+				<string>10.9-10.11-HD4600_HDMI_Audio-1of2</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				YgLsEA==
+				PQsMAAA=
 				</data>
 				<key>Name</key>
-				<string>AppleHDA</string>
+				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>
-				aQLsEA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AppleHDA/Resources/xml&gt;zml</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				eG1sLnps
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				em1sLnps
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Zeroing 10ec0885 codec (patched by AppleHDA Patcher.app)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				hQjsEA==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Patching 11d41984 with 10ec0269 codec (patched by AppleHDA Patcher.app)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				hBnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				aQLsEA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Zeroing 1983 codec </string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				gxnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Zeroing 885 codec </string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				hQjsEA==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Patching 1984 with 10ec0269 codec</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				hBnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				aQLsEA==
+				PQwMAAA=
 				</data>
 			</dict>
 		</array>
